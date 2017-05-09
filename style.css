@@ -1,0 +1,124 @@
+/*
+Theme Name: Florida Man Photography Gramophone
+Theme URI: https://github.com/evansekeful/FloridaMan-Gramophone
+Author: Elizabeth Evans
+Author URI: https://github.com/evansekeful
+Description: A Bootstrap 4 (WooCommerce Ready) Theme for Florida Man Photography
+Version: 1.0.0
+License: GNU GPL v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: microformats
+Text Domain: woocommerce
+
+Gramophone, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*****************************
+ ~~ Site Wide
+*****************************/
+html, body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p, a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #002f63;
+}
+
+a:hover, a:active {
+    color: #eb6608 !important;
+    text-shadow: 0 0 2px #ffffff;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: #002f63;
+    font-weight: bolder;
+}
+
+.navbar-collapse {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/*****************************
+ ~~ Special Classes
+*****************************/
+
+.transparent {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.tooltip > .tooltip-inner {
+  background-color: #002f63;
+}
+
+.tooltip > .tooltip-inner::before {
+  border-bottom-color: #002f63;
+}
+
+.sow-social-media-button {
+  margin: 1rem 1rem !important;
+}
+
+/*****************************
+ ~~ Error
+*****************************/
+.jumbotron.error-page {
+  background: none;
+}
+.error-page h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3.5em;
+}
+
+/*****************************
+ ~~ Front Page
+*****************************/
+.frontpage .navbar {
+  margin: 0 -10rem;
+  padding: .5rem 10rem;
+  background-color: white;
+}
+
+.frontpage .navbar-nav {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.frontpage.header > .container {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.frontpage.header > .container img {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1.25rem;
+}
+
+.frontpage .navbar-nav .nav-item {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+#signature-logo {
+  padding: 3.5rem 0;
+}
